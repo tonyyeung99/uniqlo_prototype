@@ -11,6 +11,7 @@ import Login from "../user/login/Login";
 import Signup from "../user/signup/Signup";
 import Profile from "../user/profile/Profile";
 import AppHeader from "../common/AppHeader";
+import AppFooter from "../common/AppFooter";
 import NotFound from "../common/NotFound";
 import LoadingIndicator from "../common/LoadingIndicator";
 import PrivateRoute from "../common/PrivateRoute";
@@ -142,6 +143,7 @@ class App extends Component {
             </Switch>
           </div>
         </Content>
+        <AppFooter />
       </Layout>
     );
   }

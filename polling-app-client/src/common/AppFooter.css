@@ -1,28 +1,17 @@
-.app-title {
-  float: left;
-}
-
-.app-title a {
-  text-decoration: none;
-  line-height: 64px;
-  font-size: 21px;
-  display: inline-block;
-}
-
-.app-title a:hover {
-  text-decoration: none;
-}
-
-.app-header {
+.app-footer {
   position: fixed;
   width: 100%;
   box-shadow: 0 2px 8px #f0f1f2;
   z-index: 10;
   padding: 0;
+  bottom: 0px;
 }
 
 .app-menu {
-  float: right;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
 }
 
 .app-menu > li {
